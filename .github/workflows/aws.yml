@@ -29,4 +29,4 @@ jobs:
       # 4. Reiniciar Nginx en el servidor EC2 para que los cambios se reflejen
       - name: Restart Nginx on EC2
         run: |
-          ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_HOST }} "sudo systemctl restart nginx"
+          ssh -o StrictHostKeyChecking=no ec2-user@${{ secrets.EC2_INSTANCE_IP }} "sudo systemctl restart nginx"
