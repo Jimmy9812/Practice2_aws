@@ -20,6 +20,6 @@ This program to print the messages "Hello" in a instant in EC2
 <img src="imagen.png" alt="Hello from javascript">
 
 <p align="right">
-By. Karol Pineda
+
 </p>
  
